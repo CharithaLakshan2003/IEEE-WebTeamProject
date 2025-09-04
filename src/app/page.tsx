@@ -34,7 +34,7 @@ export default function ReidXtremePage() {
           <Button
             size="lg"
             variant="secondary"
-            className="text-lg px-8 py-3 cursor-pointer"
+            className="text-lg px-8 py-3 cursor-pointer transition-transform duration-300 hover:scale-105 hover:shadow-lg animate-popup"
             onClick={() => setIsRegistrationOpen(true)}
           >
             Register Now
@@ -72,7 +72,7 @@ export default function ReidXtremePage() {
           <h2 className="text-3xl md:text-4xl font-bold text-center mb-12">Event Timeline</h2>
           <div className="grid md:grid-cols-2 gap-8">
             {/* Day 1 */}
-            <Card>
+            <Card className="transition-transform duration-300 hover:scale-105 hover:shadow-lg animate-popup">
               <CardHeader>
                 <CardTitle className="flex items-center gap-2">
                   <Calendar className="h-5 w-5 text-primary" />
@@ -96,7 +96,7 @@ export default function ReidXtremePage() {
             </Card>
 
             {/* Day 2 */}
-            <Card>
+            <Card className="transition-transform duration-300 hover:scale-105 hover:shadow-lg animate-popup">
               <CardHeader>
                 <CardTitle className="flex items-center gap-2">
                   <Calendar className="h-5 w-5 text-primary" />
@@ -128,31 +128,31 @@ export default function ReidXtremePage() {
           <h2 className="text-3xl md:text-4xl font-bold text-center mb-12">Prizes & Recognition</h2>
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
             {/* Champion */}
-            <Card className="border-2 border-primary">
+            <Card className="border-2 border-secondaryote transition-transform duration-300 hover:scale-105 hover:shadow-lg animate-popup">
               <CardHeader className="text-center">
                 <div className="mx-auto mb-4 text-6xl">🥇</div>
-                <CardTitle className="text-primary">Champion Team</CardTitle>
+                <CardTitle className="text-secondary">Champion Team</CardTitle>
               </CardHeader>
               <CardContent className="text-center space-y-2">
-                <div className="text-2xl font-bold text-primary">LKR 100,000</div>
+                <div className="text-2xl font-bold text-secondary">LKR 100,000</div>
                 <div className="text-muted-foreground">+ Trophy + Certificates</div>
               </CardContent>
             </Card>
 
             {/* 1st Runner-up */}
-            <Card className="border-2 border-secondary">
+            <Card className="border-2 border-primary transition-transform duration-300 hover:scale-105 hover:shadow-lg animate-popup">
               <CardHeader className="text-center">
                 <div className="mx-auto mb-4 text-6xl">🥈</div>
-                <CardTitle className="text-secondary">1st Runner-up</CardTitle>
+                <CardTitle className="text-primary">1st Runner-up</CardTitle>
               </CardHeader>
               <CardContent className="text-center space-y-2">
-                <div className="text-2xl font-bold text-secondary">LKR 50,000</div>
+                <div className="text-2xl font-bold text-primary">LKR 50,000</div>
                 <div className="text-muted-foreground">+ Certificates</div>
               </CardContent>
             </Card>
 
             {/* 2nd Runner-up */}
-            <Card>
+            <Card className="border-2 border-primary transition-transform duration-300 hover:scale-105 hover:shadow-lg animate-popup">
               <CardHeader className="text-center">
                 <div className="mx-auto mb-4 text-6xl">🥉</div>
                 <CardTitle>2nd Runner-up</CardTitle>
@@ -171,11 +171,11 @@ export default function ReidXtremePage() {
                   Special Recognitions
                 </CardTitle>
               </CardHeader>
-              <CardContent className="flex flex-wrap justify-center gap-4">
-                <Badge variant="secondary" className="text-lg py-2 px-4">
+              <CardContent className="flex flex-wrap justify-center gap-4 ">
+                <Badge variant="secondary" className="text-lg py-2 px-4 transition-transform duration-300 hover:scale-105 hover:shadow-lg animate-popup">
                   🎖️ Best Female Team
                 </Badge>
-                <Badge variant="secondary" className="text-lg py-2 px-4">
+                <Badge variant="secondary" className="text-lg py-2 px-4 transition-transform duration-300 hover:scale-105 hover:shadow-lg animate-popup">
                   🎖️ Best Newcomer
                 </Badge>
               </CardContent>
@@ -189,7 +189,7 @@ export default function ReidXtremePage() {
         <div className="max-w-4xl mx-auto">
           <h2 className="text-3xl md:text-4xl font-bold text-center mb-12">Frequently Asked Questions</h2>
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
-            <Card>
+            <Card className="transition-transform duration-300 hover:scale-105 hover:shadow-lg animate-popup">
               <CardHeader>
                 <CardTitle className="text-lg">Who can participate?</CardTitle>
               </CardHeader>
@@ -198,7 +198,7 @@ export default function ReidXtremePage() {
               </CardContent>
             </Card>
 
-            <Card>
+            <Card className="transition-transform duration-300 hover:scale-105 hover:shadow-lg animate-popup">
               <CardHeader>
                 <CardTitle className="text-lg">How many per team?</CardTitle>
               </CardHeader>
@@ -207,7 +207,7 @@ export default function ReidXtremePage() {
               </CardContent>
             </Card>
 
-            <Card>
+            <Card className="transition-transform duration-300 hover:scale-105 hover:shadow-lg animate-popup">
               <CardHeader>
                 <CardTitle className="text-lg">Is it online or onsite?</CardTitle>
               </CardHeader>
@@ -216,7 +216,7 @@ export default function ReidXtremePage() {
               </CardContent>
             </Card>
 
-            <Card>
+            <Card className="transition-transform duration-300 hover:scale-105 hover:shadow-lg animate-popup">
               <CardHeader>
                 <CardTitle className="text-lg">Do I need prior experience?</CardTitle>
               </CardHeader>
@@ -225,7 +225,7 @@ export default function ReidXtremePage() {
               </CardContent>
             </Card>
 
-            <Card>
+            <Card className="transition-transform duration-300 hover:scale-105 hover:shadow-lg animate-popup">
               <CardHeader>
                 <CardTitle className="text-lg">What's the duration?</CardTitle>
               </CardHeader>
@@ -234,7 +234,7 @@ export default function ReidXtremePage() {
               </CardContent>
             </Card>
 
-            <Card>
+            <Card className="transition-transform duration-300 hover:scale-105 hover:shadow-lg animate-popup">
               <CardHeader>
                 <CardTitle className="text-lg flex items-center gap-2">
                   <Users className="h-4 w-4" />
