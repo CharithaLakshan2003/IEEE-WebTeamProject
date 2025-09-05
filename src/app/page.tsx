@@ -227,7 +227,7 @@ export default function ReidXtremePage() {
 
             <Card className="transition-transform duration-300 hover:scale-105 hover:shadow-lg animate-popup">
               <CardHeader>
-                <CardTitle className="text-lg">What's the duration?</CardTitle>
+                <CardTitle className="text-lg">What&apos;s the duration?</CardTitle>
               </CardHeader>
               <CardContent>
                 <p>24 hours continuous hackathon.</p>
